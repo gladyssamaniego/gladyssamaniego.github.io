@@ -24,4 +24,12 @@ table a
 {
     color: green 
 }
-
+.rowheader
+{
+    color:rgb(70, 11, 4);
+    background-color: grey;
+}
+th:hover
+{
+    color:orange;
+}
