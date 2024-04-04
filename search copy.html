@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8">
+        <Title>Flowers Search</Title>
+        <link rel="stylesheet" href="main.css/css">
+    </head>
+    <body> 
+        <h1> Flower Search</h1>
+        <form action="https://www.google.com/search" method="GET">
+
+        <p>
+            <label for="selectflower">Select a Flower:</label>
+            <select name="q" id="selectflower"> 
+                <option value="">---Select---</option>
+                <option value="rose">Rose</option>
+                <option value="orchid">Orchid</option>
+                <option value="tulip">Tulip</option>
+                <option value="strawflower">Strawflower</option>
+                <option value="dahlia">Dahlia</option>
+                <option value="gladiolus">Gladiolus</option>
+             </select>
+        </p>
+
+         <p>
+            <input type="radio" name="q" value="isch" id="checkimage">
+            <label for="checkimage">Image</label>
+            <div>
+                <label for="selectcolor">Select color:</label>
+                <select name="gsearch" id="selectcolor">
+                    <option value="">---Select---</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="pink">Pink</option>
+                </select>
+            </div>
+           </p>
+           <p>
+             <input type="radio" name="q" value="shop" id="checkshop">
+             <label for="checkshop">Shops</label>
+            <div>
+                <label for="selectflower">Select Price:</label>
+                <select name="q" id="selectflower"> 
+                    <option value="">---Select---</option>
+                    <option value="low">Low</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+       
+            </p>
+
+    <p>
+    <input type="radio" name="q" value="bks" id="checkbooks">
+    <label for="checkbooks">Books</label>
+    </p>
+        <p>
+            <input type="submit">
+        </p>
+        </form>      
+    </body>
+</html>
+
