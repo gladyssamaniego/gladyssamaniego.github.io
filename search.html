@@ -8,7 +8,7 @@
     <body> 
         <h1> Flower Search</h1>
         <form action="https://www.google.com/search" method="GET">
-            <fieldset id="toplevelset">
+
         <p>
             <label for="selectflower">Select a Flower:</label>
             <select name="q" id="selectflower"> 
@@ -25,7 +25,7 @@
         <fieldset>
             <input type="radio" name="tbm" value="isch" id="checkimage">
             <label for="checkimage">Image</label>
-            <p>
+            <div>
                 <label for="selectflower">Select color:</label>
                 <select name="q" id="selectflower">
                     <option value="">---Select---</option>
@@ -34,26 +34,27 @@
                     <option value="yellow">Yellow</option>
                     <option value="pink">Pink</option>
                 </select>
-            </p>
+           <div>
         </fieldset>
     <p>
         <fieldset>
              <input type="radio" name="tbm" value="shop" id="checkshop">
              <label for="checkshop">Shops</label>
-            <p>
+            <div>
                 <label for="selectprice">Select Price:</label>
                 <select name="q" id="selectprice"> 
                     <option value="">---Select---</option>
                     <option value="low">Low</option>
                     <option value="high">High</option>
                 </select>
-            </p>
+            </div>
         </fieldset>
     </p>
 
-        <p>
+    <p>
     <input type="radio" name="tbm" value="bks" id="checkbooks">
     <labe for="checkbooks">Books</label>
+    </p>
         <p>
             <input type="submit">
         </p>
