@@ -9,8 +9,8 @@ th, table
 table
 {
     border-collapse: collapse;
-    color: blue
-    margin-bottom: 15px; 
+    color: blue;
+    margin-bottom: 15px;
 }
 td, th
 {
@@ -33,4 +33,9 @@ table a
 th:hover
 {
     color:orange;
+}
+img
+{
+    margin: auto;
+    display:block;
 }
