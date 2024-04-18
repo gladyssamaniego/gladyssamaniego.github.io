@@ -39,3 +39,9 @@ img
     max-height: auto;
     height: fit-content;
 }
+h1
+{
+    font-family: "Gill Sans Extrabold";
+    font-style: italic;
+    color: gre;
+}
