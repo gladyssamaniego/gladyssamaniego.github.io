@@ -9,7 +9,7 @@ th, table
 table
 {
     border-collapse: collapse;
-    color: blue;
+    color: rgb(22, 22, 24);
     margin-bottom: 15px;
 }
 td, th
@@ -36,8 +36,7 @@ th:hover
 }
 img
 {
-    max-height: 200%;
-    height: 400px;
+    height:auto;
 }
 h1
 {
