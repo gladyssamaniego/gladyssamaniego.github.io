@@ -41,7 +41,11 @@ img
 }
 h1
 {
-    font-family: "Gill Sans Extrabold";
-    font-style: italic;
-    color: gre;
+    font-size: 300%;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: rgb(157, 228, 228);
 }
