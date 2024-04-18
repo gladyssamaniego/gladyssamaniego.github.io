@@ -36,6 +36,6 @@ th:hover
 }
 img
 {
-    margin: auto;
-    display:block;
+    max-height: auto;
+    height: fit-content;
 }
