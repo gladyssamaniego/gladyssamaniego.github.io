@@ -36,22 +36,55 @@ th:hover
 }
 img
 {
-    height:auto;
+    height:75%;
+    border-radius:10px;
+    border-collapse: inherit;
+    border: 2px solid black;  
+    padding:2px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   
 }
 h1
 {
     font-size: 420%;
-    color: rgb(22, 22, 79);
+    color: rgb(167, 93, 93);
     font-family: Georgia, serif;
     text-align: center;
 }
+h2
+{
+    color: rgb(83, 28, 46);
+    text-align: justify;
+}
+h3
+{
+    color:black;
+    font-size: small
+}
 body
 {
-    background-color: rgba(206, 183, 200, 0.815);
-
+    background-color: rgb(239, 181, 188);
 }
 ul
 {
     list-style-type:circle;
+    color:black;
 }
 
+a
+{
+    color: rgba(170, 19, 19, 0.712);
+    font-size: x-large;
+    font-style: italic;
+
+}
+
+p
+{
+    color: black;
+    font-size: 16px;
+    font-style:oblique;
+    text-align:justify;
+}
