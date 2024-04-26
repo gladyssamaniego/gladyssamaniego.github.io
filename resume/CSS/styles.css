@@ -1,11 +1,11 @@
 .date
 {
-    color:blueviolet;
+    color:rgb(210, 78, 76);
 }
 
 h1
 {
-    color:blueviolet;
+    color:rgb(13, 12, 14);
 }
 
 img
@@ -14,5 +14,5 @@ img
 }
 body
 {
-background-color: rgb(69, 127, 127);
+background-color: rgba(236, 163, 226, 0.822);
 }
