@@ -11,8 +11,28 @@ h1
 img
 {
     width:30vw;
+    border-radius: 40%;
 }
 body
 {
 background-color: rgba(236, 163, 226, 0.822);
 }
+a
+{
+    color: rgba(170, 19, 19, 0.712);
+    font-size: x-large;
+    font-style: italic;
+}
+h1
+{
+    font-size: 420%;
+    color: rgb(167, 93, 93);
+    font-family: Georgia, serif;
+    text-align: center;
+}
+h2
+{
+    color: rgb(83, 28, 46);
+    text-align: justify;
+}
+
